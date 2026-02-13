@@ -1,4 +1,4 @@
-#Faça uma função que recebe 3 números reais como argumento: x, mi e sigma. Essa função deve retornar o valor da fórmula da gaussiana:
+#Faça uma função que recebe 3 números reais como argumento: x, mu e sigma. Essa função deve retornar o valor da fórmula da gaussiana:
 
 import math
 def calcula_gaussiana(x,mu,sigma):
