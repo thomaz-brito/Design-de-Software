@@ -1,0 +1,5 @@
+#Faça uma função que recebe a medida de um dos catetos e da hipotenusa de um triângulo retângulo e devolve o valor do outro cateto.
+
+def encontra_cateto(a,c):
+    b=(c**2-a**2)**0.5
+    return b
