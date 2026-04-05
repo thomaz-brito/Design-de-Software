@@ -6,8 +6,8 @@
 def gera_tabuleiro(n):
     tabuleiro=[]
     elemento=[]
-    for i in range(1,n,1):
+    for i in range(0,n,1):
         elemento.append(".")
-    for i in range(1,n,1):
+    for i in range(0,n,1):
         tabuleiro.append(".")
     return tabuleiro
