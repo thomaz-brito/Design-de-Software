@@ -9,5 +9,5 @@ def gera_tabuleiro(n):
     for i in range(0,n,1):
         elemento.append(".")
     for i in range(0,n,1):
-        tabuleiro.append(".")
+        tabuleiro.append(elemento)
     return tabuleiro
