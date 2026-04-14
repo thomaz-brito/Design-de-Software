@@ -2,8 +2,8 @@
 
 def interseccao_valores(d1,d2):
     interseccao=[]
-    for a,b in d1.items():
-        for c,d in d2.items():
-            if b==d:
+    for a in d1.values():
+        for b in d2.values():
+            if a==b:
                 interseccao.append(b)
     return interseccao
